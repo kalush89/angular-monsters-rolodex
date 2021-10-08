@@ -1,0 +1,13 @@
+<div class='card-list' >
+<div *ngFor='let user of users'>
+
+  <app-card [id] = 'user.id'
+            [name] = 'user.name'
+            [username] = 'user.username'
+            [email] = 'user.email'
+            [phone] = 'user.phone'
+            [website] = 'user.website'>
+
+  </app-card>
+  </div>
+</div>
